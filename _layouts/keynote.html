@@ -35,14 +35,14 @@ layout: default
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
                         <div class="tags">
-                            {% if showMiddleLine1 %}
+                            {% if site.showMiddleLine1 %}
                             {% for tag in page.tags %}
                             <a class="tag" href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
                             {% endfor %}
                             {% endif %}
                         </div>
-                        <h1>{% if showMiddleLine1 %}{{ page.title }}{% else %}&nbsp;{% endif %}</h1>
-                        {% if showMiddleLine2 %}
+                        <h1>{% if site.showMiddleLine1 %}{{ page.title }}{% else %}&nbsp;{% endif %}</h1>
+                        {% if site.showMiddleLine2 %}
                         {% comment %}
                             always create a h2 for keeping the margin , Hux
                         {% endcomment %}
