@@ -390,7 +390,7 @@ pre code {
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
-  color: white;
+  color: white; /* TODO 这里可以调左上角 luosw Online 颜色，示例 color: black;*/
   height: 56px;
   line-height: 25px;
 }
@@ -425,7 +425,7 @@ pre code {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: white; /* TODO 这里可以调右上角 HOME/ABOUT/TAGS 颜色，示例： color: black; */
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
@@ -503,7 +503,7 @@ pre code {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 85px 0 55px;
-  color: white;
+  color: white; /* TODO 这里可以调中间第两行字颜色，示例： color: '#404040' */
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
