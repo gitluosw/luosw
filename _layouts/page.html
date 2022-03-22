@@ -8,13 +8,13 @@ layout: default
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
-                    {% if showMiddleLine1 %}
+                    {% if site.showMiddleLine1 %}
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     {% else %}
                     <h1>&nbsp;</h1>
                     {% endif %}
                     <!--<hr class="small">-->
-                    {% if showMiddleLine2 %}
+                    {% if site.showMiddleLine2 %}
                     <span class="subheading">{{ page.description }}</span>
                     {% else %}
                     <span class="subheading">&nbsp;</span>
