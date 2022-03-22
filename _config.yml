@@ -15,9 +15,9 @@ sidebar-about-description: "STAY HUNGRY, STAY FOOLISH"
 sidebar-avatar: /img/about-luosw.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # 显示中间第一行字
-showMiddleLine1: true
+showMiddleLine1: false
 # 显示中间第二行字
-showMiddleLine2: true
+showMiddleLine2: false
 
 # SNS settings
 RSS: false
