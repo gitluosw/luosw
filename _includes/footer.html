@@ -145,11 +145,11 @@
     }
 </script>
 
-<!-- 
+<!--
 
-     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0  
-     - https://help.github.com/articles/creating-and-highlighting-code-blocks/ 
-     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers   
+     - https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+     - https://help.github.com/articles/creating-and-highlighting-code-blocks/
+     - https://github.com/jneen/rouge/wiki/list-of-supported-languages-and-lexers
 -->
 <!--
     <script>
@@ -236,7 +236,7 @@
             l = $('<li class="'+n+'_nav"></li>').append(c);
             $(selector).append(l);
         });
-        return true;    
+        return true;
     }
 
     generateCatalog(".catalog-body");
@@ -266,3 +266,19 @@
 </script>
 {% endif %}
 
+{% if xiaopengyou %}
+<script type="text/javascript" charset="utf-8" src="https://veasion.oss-cn-shanghai.aliyuncs.com/other/L2Dwidget.0.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="https://veasion.oss-cn-shanghai.aliyuncs.com/other/L2Dwidget.min.js"></script>
+<script type="text/javascript">
+L2Dwidget.init({
+    "display": {
+        "superSample": 2,
+        "width": 100,
+        "height": 200,
+        "position": "left",
+        "hOffset": 0,
+        "vOffset": 0
+    }
+});
+</script>
+{% endif %}

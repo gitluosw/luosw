@@ -18,6 +18,8 @@ sidebar-avatar: /img/about-luosw.jpg      # use absolute URL, seeing it's used i
 showMiddleLine1: false
 # 显示中间第二行字
 showMiddleLine2: false
+# 小朋友
+xiaopengyou: true
 
 # SNS settings
 RSS: false
