@@ -1,10 +1,10 @@
 # Site settings
-title: luosw Blog
-SEOTitle: luosw的博客 | luoswBlog
+title: luosw Online
+SEOTitle: luosw | luoswOnline
 header-img: img/post-bg-desk.jpg
 email: luosw@luosw.cc
 description: "Every failure is leading towards success."
-keyword: "luosw, luosw Blog, luosw, siwei"
+keyword: "luosw, luosw Blog, siwei"
 url: "http://gitluosw.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/gitluosw/luosw" # you code repository
@@ -61,12 +61,12 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: False    #是否开启Gitalk评论
-  clientID: #                            #生成的clientID
-  clientSecret: #    #生成的clientSecret
-  repo: #github.io    #仓库名称
-  owner: #luosw    #github用户名
-  admin: #luosw
+  enable: True    #是否开启Gitalk评论
+  clientID: 815d3b85ed8d6c42a0cc                            #生成的clientID
+  clientSecret: 3881a5b75c115a863ecd8d7084e58ae266e628db    #生成的clientSecret
+  repo: luosw    #仓库名称
+  owner: gitluosw    #github用户名
+  admin: gitluosw
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 

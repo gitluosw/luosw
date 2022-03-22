@@ -1,7 +1,7 @@
 {
   "name": "luosw",
-  "short_name": "luosw Blog",
-  "description": "A personal blog by engineer",
+  "short_name": "luosw",
+  "description": "A personal website by engineer",
   "icons": [{
     "src": "icons/luosw_icon_128.png",
     "sizes": "128x128",
