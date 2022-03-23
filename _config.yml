@@ -1,10 +1,10 @@
 # Site settings
 title: luosw Online
-SEOTitle: luosw
-header-img: img/post-bg-desk.jpg
+SEOTitle: luosw Online
+header-img: img/web-bg.jpg
 email: luosw@luosw.cc
 description: "Every failure is leading towards success."
-keyword: "luosw, luosw Blog, siwei"
+keyword: "luosw, luosw Web, Siwei"
 url: "http://gitluosw.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/gitluosw/luosw" # you code repository
@@ -66,7 +66,7 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: True    #是否开启Gitalk评论
+  enable: true    #是否开启Gitalk评论
   clientID: 815d3b85ed8d6c42a0cc                            #生成的clientID
   clientSecret: 3881a5b75c115a863ecd8d7084e58ae266e628db    #生成的clientSecret
   repo: luosw    #仓库名称
@@ -103,16 +103,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "#1",
+        title: "Google Scholar",
+        href: "https://scholar.google.com/"
+    },{
+        title: "NetEase CloudMusic",
+        href: "https://music.163.com/"        
+    },{
+        title: "Github",
+        href: "https://github.com/"        
+    },{
+        title: "luosw Online",
         href: "http://luosw.cc"
-    },{
-        title: "#2",
-        href: ""
-    },{
-        title: "#3",
-        href: ""
-    },{
-        title: "#4",
-        href: ""
     }
 ]
