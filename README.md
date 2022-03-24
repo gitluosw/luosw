@@ -1,5 +1,7 @@
-
-This project is for personal web pages. [luosw  Online](https://luosw.cc).
+[^_^]:
+    ![](https://raw.githubusercontent.com/gitluosw/luosw/main/img/readme-home.png)
+ 
+This project is for personal web pages [luosw  Online](https://luosw.cc).
 
 ## Thanks
 
