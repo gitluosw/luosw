@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)https://sais.jnu.edu.cn/Vacation/SchoolPass?ticket=ST-1466650-CfH16D4jOSUCCBgLofCp-cas -->
+<html lang="zh"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>返校及进出校园卡</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="./fx_files/forCard17/weui.css">
+    <link rel="stylesheet" href="./fx_files/forCard17/weuix.css">
+    <link href="./fx_files/forCard17/layui.css" rel="stylesheet">
+    <script src="./fx_files/forCard17/zepto.min.js.download"></script>
+    <script src="./fx_files/forCard17/qrcode.js.download"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var codeMsg = 'pw9JUmCGXyAJe4gmj2K9T8PXzM9CeSQU8vCyfGAnRk6MWB5sqGCzMg==';
+            const txt = codeMsg;
+            const codeColor = $("#colorDIV").attr("permit");
+            $('#colorDIV').addClass("cl6_" + codeColor);
+            const canvas = qrcanvas.qrcanvas({
+                data: txt,
+                size: 160,
+                foreground: 'black',
+                background: 'white'
+            });
+            $("#qr").empty().html(canvas2image(canvas))
+        });
+        function image2canvas(image) {
+            var canvas = document.createElement("canvas");
+            canvas.width = image.width;
+            canvas.height = image.height;
+            canvas.getContext("2d").drawImage(image, 0, 0);
+            return canvas;
+        }
+        function canvas2image(canvas) {
+            var image = new Image();
+            image.src = canvas.toDataURL("image/png");
+            return image;
+        }
+    </script>
+
+    <style type="text/css">
+        .whiteFont {
+            color: white;
+        }
+
+        .yellow_bg {
+            background-color: #CDCD00
+        }
+
+        .green_bg {
+            background-color: #00FF00
+        }
+
+        .red_bg {
+            background-color: #FF0000
+        }
+
+        body {
+            background: url("cssjs/imgs/bg.jpg") repeat;
+            background-size: 100%;
+        }
+
+        .cl0 {
+            z-index: 9999;
+            background: url("cssjs/imgs/3_01.jpg") no-repeat;
+            background-size: 100%;
+        }
+
+        .cl1 {
+            z-index: 9999;
+            margin-top: -20px;
+            background: url("cssjs/imgs/3_02.jpg") no-repeat;
+            background-size: 100%;
+        }
+
+        .cl2 {
+            z-index: 9999;
+            text-align: center;
+            background: url("cssjs/imgs/3_03.jpg") no-repeat;
+            background-size: 100%;
+        }
+
+        .cl3 {
+            height: 200px;
+            margin-top: -40px;
+            background: url("cssjs/imgs/3_04.jpg") repeat;
+            background-size: 100%;
+        }
+
+        .cl4 {
+            background: url("cssjs/imgs/3_05.jpg") no-repeat;
+            background-size: 100%;
+        }
+
+        .cl5 {
+            background: url("cssjs/imgs/3_06.jpg") no-repeat;
+            background-size: 100%;
+        }
+
+        .cl6_yellow {
+            height: 40px;
+            background: url("cssjs/imgs/3_07_y.jpg") no-repeat;
+            background-size: 100%;
+        }
+
+        .cl6_red {
+            height: 40px;
+            background: url("cssjs/imgs/1_07.jpg") no-repeat;
+            background-size: 100%;
+        }
+
+        .cl6_green {
+            height: 40px;
+            background: url("cssjs/imgs/2_07.jpg") no-repeat;
+            background-size: 100%;
+        }
+
+        .cl7 {
+            background: url("cssjs/imgs/3_08.jpg") no-repeat;
+            background-size: 100%;
+        }
+
+        .cl8 {
+            height: 60px;
+            background: url("cssjs/imgs/3_10.jpg") no-repeat;
+            background-size: 100%;
+        }
+    </style>
+
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1054.0" data-gr-ext-installed="">
+    <div class="page-hd cl0"></div>
+    <div class="page-hd cl1"></div>
+    <div class="page-hd cl2">
+        <p style="font-size: 30px; font-family: STHeiti; font-weight: bold;" align="center">梁家蔚</p>
+    </div>
+    <div class="page-hd cl3" style=" text-align: center;float:none;">
+        <p style="font-size: 20px; text-align:center;"> 202036236013</p>
+        <p style="font-size: 16px; text-align:center;">国际商学院</p>
+        <p style="font-size: 16px; text-align:center;">
+                <span>  石牌校区 学13栋 </span>
+        </p>
+        <div id="qr" class="tcenter" style="padding: 10px;height:170px;">
+		<img src=".\cssjs\imgs\forCard17.png"></div>
+
+        <p style="font-size: 16px; text-align:center;">
+                <span style="background-color:#009688; color:#fff; font-size:20px; padding:10px 30px;">18日返校</span>
+        </p>
+        <p style="font-size: 16px; font-weight: 200;" align="center"></p>
+    </div>
+    <div class="page-hd cl4"></div>
+    <div class="page-hd cl5">
+    </div>
+    <div id="colorDIV" class="page-hd cl6 cl6_green" permit="green">
+        <p style=" color:#fff;   font-size: 25px;  font-weight: 200;" align="center">允许进入</p>
+    </div>
+    <div class="page-hd cl7"></div>
+    <div class="page-hd cl8"></div>
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
+<!-- https://sais.jnu.edu.cn/Vacation/SchoolPassvv -->
