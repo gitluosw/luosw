@@ -105,8 +105,12 @@
     <br/>
     <span id="span_dt_dt"></span>
 </p>
+<audio id="music" autoplay="autoplay" loop="loop">
+    <source src="./music-0.mp3" type="audio/mpeg">
+</audio>
 <script language="javascript">
     function show_date_time() {
+		//document.getElementById("music").play();
         window.setTimeout("show_date_time()", 1000);
         BirthDay = new Date("4/11/2023 19:55:00");//
         today = new Date();
@@ -121,11 +125,14 @@
         e_minsold = (e_hrsold - hrsold) * 60;
         minsold = Math.floor((e_hrsold - hrsold) * 60);
         seconds = Math.floor((e_minsold - minsold) * 60);
-        span_dt_dt.innerHTML = daysold + " Days " + hrsold + " Hours " + minsold + " Minutes " + seconds + " Seconds";
+        //span_dt_dt.innerHTML = daysold + " Days " + hrsold + " Hours " + minsold + " Minutes " + seconds + " Seconds";
+		span_dt_dt.innerHTML = daysold + " d " + hrsold + " h " + minsold + " min " + seconds + " s";
     }
 
     show_date_time();
+
 </script>
+
 <script>
     var S = {
         init: function () {
@@ -138,8 +145,6 @@
             });
         }
     };
-
-
     S.Drawing = (function () {
         var canvas,
             context,
