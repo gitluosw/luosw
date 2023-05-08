@@ -132,7 +132,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //S.UI.simulate("小怪兽|我是奥特曼|你的大宝贝|可|喜|欢|你|了|#countdown 1|#time");
-            S.UI.simulate("宝贝|哥|可|喜|欢|你|了|#countdown 3|#time");
+            S.UI.simulate("宝贝|哥|可|喜|欢|你|了|!!!|#countdown 0|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -245,8 +245,8 @@
 
                 switch (action) {
                     case 'countdown':
-                        value = parseInt(value) || 10;
-                        value = value > 0 ? value : 10;
+                        value = parseInt(value) || 0;
+                        value = value > 0 ? value : 0;
 
                         timedAction(function (index) {
                             if (index === 0) {
