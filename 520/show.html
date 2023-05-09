@@ -261,7 +261,8 @@
                                 if (sequence.length === 0) {
                                     S.Shape.switchShape(S.ShapeBuilder.letter(''));
                                 } else {
-                                    window.open('result.html', '_self');
+									window.parent.document.getElementById('iframe').src = 'result.html';
+                                    //window.open('result.html', '_self');
                                     performAction(sequence);
                                 }
                             } else {
