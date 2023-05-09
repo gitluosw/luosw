@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Show页面</title>
+</head>
+<body>
+show.html 页面，自动跳转...
+</body>
+<script>
+    function go(uri) {
+        window.parent.document.getElementById('iframe').src = uri;
+    }
+    setTimeout(() => {
+        go('result.html');
+    }, 5000)
+</script>
+</html>
