@@ -10064,7 +10064,7 @@
 
             #lover {
                 transition-duration: 500ms;
-                z-index: 100000;
+                z-index: 99;
             }
 
             #lover:hover {
@@ -11030,6 +11030,32 @@
         src="https://dss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js"></script>
 <script src="sakura.js"></script>
 <script>
+var lover = document.getElementById('lover');
+var isScaled = false;
+
+lover.addEventListener('mouseover', function() {
+  if (!isScaled) {
+    lover.style.transform = 'scale(3)';
+    isScaled = true;
+    setTimeout(function() {
+      lover.style.transform = 'scale(1)';
+      isScaled = false;
+    }, 9999);
+  }
+});
+
+lover.addEventListener('focus', function() {
+  if (!isScaled) {
+    lover.style.transform = 'scale(3)';
+    isScaled = true;
+    setTimeout(function() {
+      lover.style.transform = 'scale(1)';
+      isScaled = false;
+    }, 9999);
+  }
+});
+</script>
+<script>
     let loveWords = [
         '如果我不讨你喜欢，你直接爱上我好了',
         '打你名字再多遍都不费劲，输入法会自己跑出来',
@@ -11063,7 +11089,8 @@
         allLinks[i].href = "javascript:;"
         allLinks[i].target = "_self";
         allLinks[i].onclick = () => {
-            document.getElementById("music").play();
+			//if (i==0){
+            //document.getElementById("music").play();}
             alert(loveWords[Math.floor(Math.random() * loveWords.length)]);
         };
     }
