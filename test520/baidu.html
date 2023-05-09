@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度页面</title>
+</head>
+<body>
+<button onclick="goAndPlay('show.html')">百度一下</button>
+</body>
+<script>
+    function goAndPlay(uri) {
+        window.parent.document.getElementById('iframe').src = uri;
+        window.parent.document.getElementById('music-no').play();
+    }
+</script>
+</html>
