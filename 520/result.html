@@ -11025,7 +11025,7 @@
 </div>
 
 <!--#-->
-<audio id="music" autoplay="autoplay" loop="loop">
+<audio id="music-result" autoplay="autoplay" loop="loop">
     <source src="./music-1.mp3" type="audio/mpeg">
 </audio>
 
@@ -11093,7 +11093,7 @@ lover.addEventListener('focus', function() {
         allLinks[i].target = "_self";
         allLinks[i].onclick = () => {
 			//if (i==0){
-            //document.getElementById("music").play();}
+            //document.getElementById("music-result").play();}
             alert(loveWords[Math.floor(Math.random() * loveWords.length)]);
         };
     }
